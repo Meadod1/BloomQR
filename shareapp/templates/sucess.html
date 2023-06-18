@@ -82,7 +82,7 @@ color: rgb(78, 78, 78);
                 <h1 style="padding: 5px; font-family: 'VT323', monospace; color:  #96c46e">Here is your Download Link</h1>
                 <a style="color:  #457c18; padding: 5px" href="{{ request.build_absolute_uri }}{{ key }}">{{ request.build_absolute_uri }}{{ key }}</a><br>
                 <img style="padding: 5px"  src="{{ pth }}" alt="Girl in a jacket" width="222" height="222"><br><br>
-                <button  type="submit" class="w-50 btn btn-md btn-outline-primary rounded-5" style="color: #96c46e; border-color: #96c46e; --bs-btn-hover-bg: #e0eed5; --bs-btn-active-bg: #e0eed5;">Back</button>
+                <a href="{% url 'home' %}" class="w-50 btn btn-md btn-outline-primary rounded-5" style="color: #96c46e; border-color: #96c46e; --bs-btn-hover-bg: #e0eed5; --bs-btn-active-bg: #e0eed5;">Back</a>
               </div>
             </div>
 
