@@ -26,7 +26,7 @@ The website will be avalaible on 127.0.0:8000
 ## How to launch website
 1) Download ngrok and move to desktop
 2) Launch cmd
-3) Write C:\Users\user\Desktop 
+3) Write cd C:\Users\user\Desktop 
 4) Paste in cmd ngrok.exe config add-authtoken 2RNw1llV9rM8oOCZtfXqiTSe2sP_6E5aeah8hrfmDMh5UmoaV
 5) Paste in cmd ngrok.exe http 8000
 6) Go to settings.py and in CSRF_TRUSTED_ORIGINS paste ngrok link from cmd
